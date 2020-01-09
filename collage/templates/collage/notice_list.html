@@ -1,0 +1,11 @@
+
+{% extends 'base.html'%}
+{% block content%}
+
+{% for i in notice_list%}
+
+<a href="/collage/{{ i.id }}"><h6>{{i.subject}}</h6></a>
+    
+{% endfor%}
+
+{% endblock%}
