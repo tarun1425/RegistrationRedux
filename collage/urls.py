@@ -5,3 +5,6 @@ urlpatterns = [
      path('<int:pk>',views.NoticeDetailsView.as_view()),
     
 ]
+
+
+# hello 
